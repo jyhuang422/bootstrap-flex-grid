@@ -11,8 +11,10 @@ We need to create flex grid by ourselves
 @import 'utilities/_flex.scss';
 
 ```
+
 3. revise ```package.json``` by adding our created file for latter compiling
-```json
+
+```js
 scripts: {
    'npm run sass': ...  //add our created scss file
    'npm run clean-css': ... //add ourt created css file
